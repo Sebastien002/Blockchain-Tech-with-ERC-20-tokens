@@ -1,0 +1,24 @@
+{
+  "name": "erc20api",
+  "version": "1.0.0",
+  "description": "API for ERC20 tokens through OMG network",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "npm index.js"
+  },
+  "author": "Pavel",
+  "license": "ISC",
+  "dependencies": {
+    "@omisego/omg-js": "^4.0.1-1.0.0",
+    "bn.js": "^5.1.2",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "human-standard-token-abi": "^2.0.0",
+    "number-to-bn": "^1.7.0",
+    "omg-json-bigint": "^1.0.0",
+    "promise-retry": "^2.0.1",
+    "web3": "^1.2.9"
+  }
+}
